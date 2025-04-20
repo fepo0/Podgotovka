@@ -1,6 +1,6 @@
 from  scapy.all import rdpcap, IP, TCP, UDP
 import pandas as pd
-from sklearn.ensemble import  IsolationForest
+from sklearn.ensemble import IsolationForest
 import datetime
 
 packets = rdpcap("backup.pcapng")
